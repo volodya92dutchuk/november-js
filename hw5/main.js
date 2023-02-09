@@ -115,7 +115,7 @@
 
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 // let arr=[10,1,2];
-// function foo(array) {
+// const foo = array => {
 //     let sum =0;
 //     for (let item of array) {
 //         sum+=item;
@@ -123,6 +123,20 @@
 //     }
 //     return sum;
 //
-// }
+// };
 //
 // console.log(foo(arr));
+
+// /Створити функцію яка повертає найбільше число з масиву
+// let arr =  [200,5,7,101];
+// const max= (array)=>{
+//     let max = array[0];
+//     for (let item of array) {
+//         if (item>max){
+//             max=item;
+//         }
+//
+//     }
+//     return max;
+// }
+// console.log(max(arr));
